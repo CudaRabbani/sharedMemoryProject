@@ -1,0 +1,5 @@
+file = fopen('Pattern.txt', 'r');
+a = fscanf(file, '%d');
+
+matrix_2D = reshape(a, [1024,1024]);
+imshow(matrix_2D);
